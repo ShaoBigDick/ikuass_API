@@ -43,6 +43,13 @@ class ikuasbus:
     def get_limitCount(self, n):
         return self.data['data'][n]['limitCount']
 
+    def get_resCount(self,n):
+        return self.data['data'][n]['resCount']
+    
+    def get_limitCount(self,n):
+
+        return self.data['data'][n]['limitCount']
+
     def get_resEnable(self, n):
         return self.data['data'][n]['resEnable']
 

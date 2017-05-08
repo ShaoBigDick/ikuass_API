@@ -29,15 +29,15 @@ Enter Your Password:
 
 # bus_tool.py
 
+## Class ikuasbus(date)
 ### Synopsis
+```
 import bus_tool
 
 bus = bus_tool.ikuasbus('2017/05/08') # 查詢日期 'yyyy/mm/dd'
 print (bus.get_busid(0)) #拿到第1筆 busid
 print (bus.get_busid(1)) #拿到第2筆 busid
-
-
-
+```
 ### get_busid(n)
   
   拿到第n筆busid

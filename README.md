@@ -84,3 +84,8 @@ print (bus.get_busid(1)) #拿到第2筆 busid
 ### get_datalen()
 
 取得資料長度
+
+
+## Class ikuaslogin(userId,userPw)
+### Synopsis
+

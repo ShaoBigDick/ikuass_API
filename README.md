@@ -38,49 +38,50 @@ print (bus.get_busid(1)) #拿到第2筆 busid
 
 
 
-# get_busid(n)
+get_busid(n)
+^^^^^^^^^^^^^^^^^^
   
   拿到第n筆busid
 
-# get_driveTime(n)
-
+get_driveTime(n)
+^^^^^^^^^^^^^^^^^^
    拿到第n筆開車時間
-   
-# get_startStation(n)
-
+   
+get_startStation(n)
+^^^^^^^^^^^^^^^^^^
   拿到第n筆發車點
 
-# get_endStation(n)
-
+get_endStation(n)
+^^^^^^^^^^^^^^^^^^
  拿到第n筆目的地
 
-# get_specialBus(n)
-
+get_specialBus(n)
+^^^^^^^^^^^^^^^^^^
  拿到是否為特殊班次 0 為否 1 為是
   
-# get_specialMsg(n)
-   
+get_specialMsg(n)
+   ^^^^^^^^^^^^^^^^^^
   拿到第n筆的備註
    
-# get_resCount(n)
-
+get_resCount(n)
+^^^^^^^^^^^^^^^^^^
 拿到第n筆的預約人數
 
-# get_limitCount(n)
-  
+get_limitCount(n)
+  ^^^^^^^^^^^^^^^^^^
  拿到第n筆人數限制
 
-# get_resEnable(n)
-   
+get_resEnable(n)
+   ^^^^^^^^^^^^^^^^^^
 拿到第n筆是否可預約
-
+^^^^^^^^^^^^^^^^^^
 # get_resCode(n)
+^^^^^^^^^^^^^^^^^^
 
-
-# get_resName(n)
-   
+get_resName(n)
+  ^^^^^^^^^^^^^^^^^^ 
 拿到預約資訊
 
-# get_datalen()
-
+get_datalen()
+^^^^^^^^^^^^^^^^^^
 取得資料長度

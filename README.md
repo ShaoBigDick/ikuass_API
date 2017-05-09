@@ -85,9 +85,55 @@ print (bus.get_busid(1)) #拿到第2筆 busid
 
 取得資料長度
 
+#### updatabus()
+
+更新巴士資訊
 
 ## Class ikuaslogin(userId,userPw)
 ### Synopsis
+```
+import bus_tool
+
+login = ikuaslogin('1104137125',password) # 登入帳號密碼
+print (login.get_userName()) #取得使用者姓名
+```
+#### get_userKey()
+
+取得userKey
+
+#### get_userName()
+
+取得姓名
+
+#### get_userEmail()
+
+取得Email
+
+#### get_userMobile()
+
+取得手機號碼
+
+## Class ikuaslogin(userId,userPw)
+### Synopsis
+```
+import bus_tool
+
+setbus = ikuasset('1104137125',userkey) # 登入帳號密碼
+print (setbus.busset('33825')) #預訂33825號公車
+```
+#### busset(busid)
+
+訂第 busid 號公車 並回傳資訊
+
+#### get_success()
+
+取得是否預訂成功(True or Flase)
+
+#### get_message()
+
+取得回傳資訊
+
+
 
 
 

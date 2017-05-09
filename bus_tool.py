@@ -20,6 +20,8 @@ class ikuasbus:
                 }
         r = requests.post(url, data=payload)
         r = r.text
+        self.url = url
+        self.data = payload
         self.data = json.loads(r)
 
     def get_busid(self, n):
@@ -58,7 +60,11 @@ class ikuasbus:
     def get_datalen(self):
         return len(self.data['data'])
 
-
+    def updatabus(self):
+        r = requests.post(self.url, data=self.data)
+        r = r.text
+        self.data = json.loads(r)
+        
 class ikuaslogin:
     def __init__(self, userId, userPw):
         url = URL + 'User/DoLogin'

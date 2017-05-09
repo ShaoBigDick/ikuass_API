@@ -38,54 +38,56 @@ bus = bus_tool.ikuasbus('2017/05/08') # 查詢日期 'yyyy/mm/dd'
 print (bus.get_busid(0)) #拿到第1筆 busid
 print (bus.get_busid(1)) #拿到第2筆 busid
 ```
-### get_busid(n)
+#### get_busid(index)
   
-  拿到第n筆busid
+  取得busid
 
-### get_driveTime(n)
+#### get_driveTime(index)
 
-   拿到第n筆開車時間
+  取得開車時間
    
-### get_startStation(n)
+#### get_startStation(index)
 
-  拿到第n筆發車點
+  取得發車點
 
-### get_endStation(n)
+#### get_endStation(index)
 
- 拿到第n筆目的地
+  取得目的地
 
-### get_specialBus(n)
+#### get_specialBus(index)
 
- 拿到是否為特殊班次 0 為否 1 為是
+ 取得特殊班次 0 為否 1 為是
   
-### get_specialMsg(n)
+#### get_specialMsg(index)
 
-  拿到第n筆的備註
+ 取得備註
    
-### get_resCount(n)
+#### get_resCount(index)
 
-拿到第n筆的預約人數
+ 取得目前預約人數
 
-### get_limitCount(n)
+#### get_limitCount(index)
 
- 拿到第n筆人數限制
+ 取得人數限制
 
-###  get_resEnable(n)
+####  get_resEnable(index)
 
-拿到第n筆是否可預約
+ 取得是否可預約 (True or Flase)
 
-### get_resCode(n)
+#### get_resCode(index)
 
 
-### get_resName(n)
+#### get_resName(index)
  
-拿到預約資訊
+取得預約資訊
 
-### get_datalen()
+#### get_datalen()
 
 取得資料長度
 
 
 ## Class ikuaslogin(userId,userPw)
 ### Synopsis
+
+
 

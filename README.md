@@ -113,7 +113,7 @@ print (login.get_userName()) #取得使用者姓名
 
 取得手機號碼
 
-## Class ikuaslogin(userId,userPw)
+## Class ikuasset(userId,userPw)
 ### Synopsis
 ```
 import bus_tool
